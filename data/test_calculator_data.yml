@@ -1,0 +1,33 @@
+# 加法计算用例参数
+add: #"int", "float", "int_and_float", "negative_and_int", "negative"
+  整数: [1, 1, 2]
+  float: [0.1, 0.1, 0.2]
+  int_and_float: [2, 0.1, 2.1]
+  negative_and_int: [-1, 2, 1]
+  negative: [-1, -2, -3]
+
+# 减法计算用例参数
+sub: # "int", "float", "int_and_float", "negative_and_int", "negative"
+  int: [2, 1, 1]
+  float: [0.2, 0.1, 0.1]
+  int_and_float: [2.2, 1, 1.2]
+  negative_and_int: [-1, 2, -3]
+  negative: [-1, -2, 1]
+
+# 乘法计算用例参数
+mul: # "int", "float", "int_and_float", "negative_and_int", "negative"
+  int: [2, 1, 2]
+  float: [0.2, 0.1, 0.02]
+  int_and_float: [0.2, 2, 0.4]
+  negative_and_int: [1, -2, -2]
+  negative: [-2, -3 , 6]
+
+# 除法计算
+div: # "int", "float", "int_and_float", "negative_and_int", "negative", "div is 0", "div is 0.0"
+  int: [2, 1, 2]
+  float: [0.2, 0.1, 2]
+  int_and_float: [2.2, 2, 1.1]
+  negative_and_int: [-1, 2, -0.5]
+  negative: [-6, -2 , 3]
+  div is 0: [-1, 0, 0]
+  div is 0.0: [-1, 0.0, 0]
