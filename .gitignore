@@ -1,0 +1,7 @@
+
+.gitignore
+.idea
+.pytest_cache/
+pytest-encode/build/bdist.win-amd64/
+test_calculator/.pytest_cache/
+/dist
